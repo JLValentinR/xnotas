@@ -1,0 +1,99 @@
+.cajas{
+	position: absolute;
+	height: 100vh;
+	padding: 0px;
+	overflow-y: auto;
+}
+
+.notes{
+	height: auto;
+	color: #000000;
+	padding: 0px 5px 0px 5px;
+	margin: 5px 0px 5px 0px;
+	white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.notes2{
+	position: relative;
+	height: auto;
+	color: #000000;
+	padding: 5px 0px 5px 0px;
+	white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.contenidonotes{
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	max-height: 200px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+}
+
+.ancla{
+	height: 100%;
+	align-items: center;
+  	display: flex;
+  	justify-content: center;
+}
+
+.imgnotas{
+	width: 30px;
+	height: 30px;
+  	display: flex;
+  	align-self: center;
+}
+
+.sinmarging{
+	margin: 0px;
+}
+
+.sinpadding{
+	padding: 0px;
+}
+
+/*Modal*/
+
+.inputnotes{
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	color: #000;
+    font-size: 1.1em;
+	border: 1px solid #A9D0F5;
+}
+
+.textareanotes{
+    min-width: 100%;
+    max-width: 100%;
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    border: 1px solid #A9D0F5;
+    padding: 10px;
+    color: #000;
+    font-size: 1.1em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: Ubuntu,sans-serif;
+}
+
+/*Cerrar*/
+
+.contencerrar{
+	position: absolute;
+	top: 7px;
+	right: 5px;
+	width: 25px;
+	height: 25px;
+	padding: 0px 5px 0px 0px;
+}
+
+.imgnotes{
+	width: 25px;
+	height: 25px;
+}
